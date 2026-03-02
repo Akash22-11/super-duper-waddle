@@ -1,26 +1,11 @@
-"""
-models.py — SQLAlchemy ORM Models for Kanban Board
-===================================================
-Defines the database schema for Column and Card entities.
-Each model includes a `position_index` field so the DB always
-knows the canonical render order.
 
-PEP-8 compliant. All relationships are eagerly loaded where
-beneficial for query efficiency.
-"""
 
 from datetime import datetime
 from extensions import db  
 
 
 class Column(db.Model):
-    """
-    Represents a Kanban board column (e.g., "To Do", "In Progress", "Done").
 
-    Columns are ordered by `position_index` ascending. The JS frontend
-    reflects this same ordering; any reorder operation sends a PATCH
-    request that updates position_index values atomically.
-    """
 
     __tablename__ = "columns"
 
@@ -68,14 +53,6 @@ class Column(db.Model):
 
 
 class Card(db.Model):
-    """
-    Represents a Kanban card that lives inside a Column.
-
-    Cards are ordered within their column by `position_index`.
-    When a card is dragged between columns or repositioned within one,
-    the backend receives the new column_id + ordered list of card IDs
-    and recalculates every affected card's position_index.
-    """
 
     __tablename__ = "cards"
 
