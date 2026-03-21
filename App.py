@@ -65,7 +65,7 @@ def create_app() -> Flask:
     # ------------------------------------------------------------------
     _register_routes(app)
 
-    return app
+    return app,
 
 
 # Seeding Helper
