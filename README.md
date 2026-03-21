@@ -26,12 +26,14 @@ Check out the live version of the project here: [Insert Link to Live Demo]
 
 ## 💻 Running it Locally
 
+
 To get a local copy up and running, follow these steps:
 
 2.  **Navigate to the project directory:**
     ```bash
     cd your-kanban-repo
     ```
+
 3.  **Install dependencies:**
     ```bash
     npm install
