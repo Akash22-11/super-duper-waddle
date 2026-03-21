@@ -1,4 +1,4 @@
-
+#MODELS USED IN THIS APPLICATION;
 
 from datetime import datetime
 from extensions import db  
