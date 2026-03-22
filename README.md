@@ -2,7 +2,7 @@
 
 This is a Clone of TRELLO , in a different way.
 I name it SUPER DUPER WADDLE , NOT JUST BUILDING BUT A DEEP LEARNING;
-
+A clone of KANBAN CLONE
 # 📋 Kanban Board Clone
 
 A fully functional, interactive Kanban board built to manage tasks efficiently. This project allows users to create, organize, and track tasks across different stages of completion.
