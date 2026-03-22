@@ -24,10 +24,10 @@ A fully functional, interactive Kanban board built to manage tasks efficiently. 
 
 Check out the live version of the project here: [Insert Link to Live Demo]
 
+
 ## 💻 Running it Locally
 
-
-To get a local copy up and running, follow these steps:
+To get a local copy up and running, follow the steps:
 
 2.  **Navigate to the project directory:**
     ```bash
